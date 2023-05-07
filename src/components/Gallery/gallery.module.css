@@ -1,0 +1,147 @@
+.sectionWrapper{
+    width: 100%;
+
+}
+.galleryContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  
+}
+.galery h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+}
+.galery p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.btnConatiner{
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #505050;
+}
+.btn{
+    margin-top: 18px;
+    padding: 12px 32px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px ;
+    margin-left: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.03px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.imgBox{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    overflow: hidden;
+    justify-content: center;
+    animation: ease-in-out 500ms;
+    animation-delay: 100ms;
+
+}
+.imgBox img{
+    cursor: pointer;
+   
+}
+.imgBox img:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+
+}
+.imgWrapper{
+    height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.img1{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+}
+.img2{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+
+}
+.img3{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+.box3{
+    display: flex;
+    overflow: hidden;
+
+}
+.viewBtn{
+   background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+  
+}
+.viewBtn button{
+    color: #EE2A42;
+    margin-top: 18px;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 0 3px #fff;
+    font-size: 10px;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.03px;
+}
+@media (max-width: 1200px) {
+    .imgBox{
+        grid-template-columns: 300px 300px 300px;
+    }
+    
+}
+@media (max-width: 900px) {
+    .imgBox{
+        grid-template-columns: 300px 300px;
+    }
+    
+    
+}
+@media (max-width: 600px) {
+    .imgBox{
+        grid-template-columns: 300px ;
+    }
+    .btn{
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .btnConatiner span{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+}

@@ -1,0 +1,163 @@
+
+.sectionContainer{
+    background-image: url(../../assets/latestupdate_wall.png);
+    width: 100%;
+    height: fit-content;
+    
+}
+.aboutus{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 72px 0;
+
+}
+.imgContainer{
+  position: relative;
+}
+.left{
+    background-image: url(../../assets/left.png);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 380px;
+    height: 350px;
+    transform: translateY(-50%);
+    background-position: center;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.right{
+    background-image: url(../../assets/right.svg);
+    margin-left: 200px;
+    padding-left: 250px;
+    padding-top: 60px;
+    padding-right: 60px;
+    color: #fff;
+    padding-bottom: 45px;
+
+}
+.right h4{
+    
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 24px;
+    
+}
+.right p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:24px ;
+  
+}
+.btn{
+    margin-top: 18px;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 0 3px #fff;
+    color: #F0393D;
+    font-size: 10px;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.03px;
+    
+}
+.aboutus2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 0;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+.number{
+    font-size: 72px;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.text{
+    font-size: 12px;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 150px;
+}
+
+@media (max-width: 1200px) {
+    .left{
+        width: 300px;
+    }
+    .right{
+        margin-left: 100px;
+    }
+    
+}
+@media (max-width: 700px) {
+    .left{
+        width: 200px;
+    }
+    .right{
+        margin-left: 20px;
+        padding-left: 200px;
+        padding-right: 20px;
+    }
+    
+}
+@media (max-width: 550px) {
+    .aboutus{
+        padding: 24px 0;
+    }
+    .left{
+        width: 280px;
+        left: 50%;
+        transform: translate(-50%);
+        top: -10%;
+        height: 200px;
+    }
+    .right{
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 150px;
+    }
+    .right h4{
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .right p{
+        font-size: 12px;
+        margin-bottom:12px ;
+
+    }
+    .wrapper{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
+    }
+    .aboutus2{
+        padding: 12px 0;
+    }
+    .number{
+        font-size: 36px;
+        
+    }
+    
+    
+}

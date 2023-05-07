@@ -1,0 +1,74 @@
+.Acadmics{
+    width: 100%;
+    margin: 84px 0;
+}
+
+.cardContainer{
+    max-width: 1200px;
+    margin: 0 auto; 
+    
+}
+
+.academicsHeadng{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #111;
+    text-align: center;
+}
+
+.academicstext{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    text-align: center;
+    padding: 24px 200px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 56px 72px;
+    
+}
+.cardText{
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.cardTitle{
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.tag{
+    font-weight: 600;
+}
+@media (max-width:1200px) {
+    .academicstext{
+        padding: 24px 100px;
+    }
+    
+}
+@media (max-width:650px) {
+    .academicstext{
+        padding: 12px 30px;
+    }
+    
+}
+@media (max-width:400px) {
+    .academicstext{
+        padding: 12px 30px;
+        
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    
+}
+
+

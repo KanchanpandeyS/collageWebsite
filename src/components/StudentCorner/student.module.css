@@ -1,0 +1,127 @@
+.background{
+   background-image: url(../../assets/Group\ 65.svg);
+   width: 200px;
+   height: 200px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.arrow{
+    margin-bottom: 90px;
+    margin-left: 60px;
+}
+.box1{
+    background-color: #F12967;
+    width: 450px;
+    height: 500px;
+    position: relative;
+    z-index: -30;
+
+}
+
+.box1img1{
+    width: 200px;
+    height: 550px;
+}
+.box1img{
+    width: 450px;
+    height: 500px;
+}
+
+.box1Background:first-child{
+    position: absolute;
+    z-index: -20;
+    top: 0;
+    right: 0;
+    
+
+}
+.box1Background :nth-child(1){
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    right: 0;
+}
+
+.listWrapper{
+    color: #FFFFFF;
+    margin-top: 36px;
+    margin-left: 16px;
+
+}
+.listWrapper h6{
+    font-size: 18px;
+    color: #FFFFFF;
+ 
+}
+.listBox{
+    list-style: none;
+
+}
+.listBox li{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.box2Img{
+    height: 500px;
+    width: 300px;
+    
+}
+.box3img{
+    height: 500px;
+    width: 450px;
+}
+@media (max-width:1200px) {
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media (max-width:760px) {
+    .wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+}
+@media (max-width:560px) {
+    .wrapper{
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+    .arrow{
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .listWrapper{
+        margin-top: 12px;
+    }
+    .box1{
+        width: 300px;
+        height: 350px;
+    }
+    .box1img1{
+        width: 150px;
+        height: 350px;
+    }
+    .box1img{
+        width: 150px;
+        height: 350px;
+    }
+    .box3img{
+        height: 350px;
+        width: 300px;
+    }
+    
+    
+}
